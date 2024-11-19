@@ -10,13 +10,23 @@ In this project you are asked to deploy a fully-operational 5G network using Ope
 
 ## Getting Started
 
-The first step is to deploy the 5G Core Network.
 
-Clone this repository in your VM to access the files that we have already prepared for you:
+Clone this repository in your VM 36 (ssh cell@132.227.122.36) to access the files that we have already prepared for you:
 ```
+ssh cell@132.227.122.36
 git clone https://gitlab.com/schristakis1/5g-up-scaling.git
 ```
+Go into the directory and execute the following command to initialize kubernetes cluster and depedencies. !!!WAIT UNITL THE SCRIPT IS DONE!!:
+```
+bash init.sh
+```
+After this script finishes continue by installing helm with the following command:
+```
+bash get_helm.sh
+```
 
+
+The first step is to deploy the 5G Core Network.
 
 Go inside the the folder that you have just cloned and study the files and more specifically the folder oai-5g-core and oai-ueransim.yaml.
 
