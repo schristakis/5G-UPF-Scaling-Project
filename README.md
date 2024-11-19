@@ -14,7 +14,7 @@ In this project you are asked to deploy a fully-operational 5G network using Ope
 Clone this repository in your VM 36 (ssh cell@132.227.122.36) to access the files that we have already prepared for you:
 ```
 ssh cell@132.227.122.36
-git clone https://gitlab.com/schristakis1/5g-up-scaling.git
+https://github.com/schristakis/5G-UPF-Scaling-Project.git
 ```
 Go into the directory and execute the following command to initialize kubernetes cluster and depedencies. !!!WAIT UNITL THE SCRIPT IS DONE!!:
 ```
