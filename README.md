@@ -1,4 +1,4 @@
-# 5G-UPF-Scaling
+# Dynamic Scaling of UPF in 5G Networks Based on Traffic
 
 ## Contact
 
