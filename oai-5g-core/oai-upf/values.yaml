@@ -60,7 +60,7 @@ multus:
     routes: ""
     hostInterface: "bond0"
   n6Interface:
-    create: true
+    create: false
     ipAdd: "172.21.70.159"
     name: "n6"
     netmask: "24"
