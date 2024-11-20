@@ -17,7 +17,7 @@ spec:
       labels:
         app: ueransim
     spec:
-      nodeName: 
+#      nodeName: 
       containers:           
       - image: rohankharade/ueransim:latest
         imagePullPolicy: IfNotPresent
