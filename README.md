@@ -117,8 +117,9 @@ Hint: You will have to generate traffic from the UE to the UPF based on the file
 
 The scaling should work as follows:
 
-1) If throughput <= 15 Mpbs --> 1 UPF deployment
-2) If throughput > 15
+1) If throughput <= 15 Mpbs:
+   - All thoughput value goes from UERANSIM1 to UPF1 (Original setup) 
+2 If throughput > 15:
    - Your script will deploy a 2nd UPF2(oai-upf2) and deploy a 2nd UERANSIM2(oai-ueransim.yaml) as well.
    - UERANSIM1 will generate traffic to the original UPF but half of the thoughput value
    - The other half throughput will be generated from UERANSIM2 to UPF2
